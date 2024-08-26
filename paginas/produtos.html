@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos</title>
+    <link rel="short icon" href="../imagens/logoicon.ico">
+    <link rel="stylesheet" type="text/css" href="../estilos/indexEstilo.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/produtosEstilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="../imagens/LogoSB.png" alt="Logo">
+        <span id="nomePerfil">Paulo Souza</span>
+        <img id="perfil" src="../imagens/fotoPerfil.jpg" alt="Foto de Perfil">
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li class="dropdown">
+                    <a id="pagAtual" href="./produtos.html">Nossos Produtos</a>
+                    <ul class="conteudoDropdown">
+                        <li><a>Bolo Matcha</a></li>
+                        <li><a>Mochi Daifuku</a></li>
+                        <li><a>Taiyaki da Sorte</a></li>
+                    </ul>
+                </li>
+                <li><a href="./sobre.html">Sobre Nós</a></li>
+                <li><a href="../paginas/contato.html">Entre em Contato</a></li>
+            </ul>
+        </nav>
+    </aside>    
+    <main>
+        <section id="matcha">
+            <img class="produtosImg" src="../imagens/matcha.jpg">
+            <p class="produtosNome"><strong>Bolo Matcha</strong></p>
+            <p class="descricao">Um bolo suave e aromático feito com o autêntico chá verde japonês.</p>
+        </section>
+        <section id="daifuku">
+            <img class="produtosImg" src="../imagens/daifuku.jpg">
+            <p class="produtosNome"><strong>Daifuku Mochi</strong></p>
+            <p class="descricao">Bolinho de arroz macio e elástico recheado com cremes e frutas frescas.</p>
+        </section>
+        <section id="taiyaki">
+            <img class="produtosImg" src="../imagens/taiyaki.jpg">
+            <p class="produtosNome"><strong>Taiyaki da Sorte</strong></p>
+            <p class="descricao">Um doce tradicional japonês em formato de peixe com rechei de anko.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sakura Bakery. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.body.classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>

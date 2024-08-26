@@ -1,0 +1,92 @@
+nav > ul > li:first-child a {
+    background-color: #ffffff;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: -15px;
+    transition: color 0.3s ease;
+    box-shadow: none;
+}
+
+nav > ul > li:first-child a:hover {
+    background-color: #ffffff;
+    color: #ff9aa9;
+    transition: color 0.3s ease;
+}
+
+#pagAtual {
+    background-color: #ff9aa9;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: -5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#pagAtual:hover {
+    background-color: #444;
+}
+
+main {
+    margin-top: 5px;
+    background-color: #ffeef1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    box-shadow: 0 1px 15px rgba(46, 40, 42, 0.2);
+    border-radius: 25px;
+    text-align: justify;
+    width: 25%;
+    padding: 15px;
+    color: #37252a;
+}
+
+.conteudo h1 {
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+.conteudo p {
+    font-size: 1em;
+    width: 80%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    line-height: 1.9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtosImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.produtosNome, .descricao {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.produtosNome{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    section {
+        width: 90%;
+        flex: 1 1 90%;
+    }
+}

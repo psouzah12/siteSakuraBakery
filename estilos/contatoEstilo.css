@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav > ul > li:first-child a {
+    background-color: #ffffff;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: -15px;
+    transition: color 0.3s ease;
+    box-shadow: none;
+}
+
+nav > ul > li:first-child a:hover {
+    background-color: #ffffff;
+    color: #ff9aa9;
+    transition: color 0.3s ease;
+}
+
+nav > ul > li:last-child a {
+    background-color: #ff9aa9;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: -5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav > ul > li:last-child a:hover {
+    background-color: #444;
+}
+
+main{
+    background-color: #ffeef1;
+}
+#formularioContainer {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 1px 15px rgba(46, 40, 42, 0.2);
+}
+
+#formularioContainer h2 {
+    text-align: center;
+    color: #37252a;
+    margin-top: -10px;
+}
+
+#formularioContainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #37252a;
+}
+
+#formularioContainer input[type="text"],
+#formularioContainer input[type="email"],
+#formularioContainer input[type="tel"],
+#formularioContainer textarea,
+#formularioContainer select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: -20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#formularioContainer input[type="radio"] {
+    margin-right: 5px;
+}
+
+#formularioContainer button {
+    padding: 10px 20px;
+    background-color: #ff9aa9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#formularioContainer button:hover {
+    background-color: #e58897;
+}
+
+#saida {
+    display: none;
+    width: 40%;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 1px 15px rgba(46, 40, 42, 0.2);
+    font-family: 'Poppins', sans-serif;
+    color: #37252a;
+}
